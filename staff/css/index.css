@@ -1,0 +1,64 @@
+@charset "utf-8";
+@import url("../../shared/css/import.css");
+/* ////////////////////
+STAFF
+//////////////////// */
+#content #main h2 {background-image:url(../img/lead.gif)}
+
+#content #main ol li {
+	list-style:decimal inside;
+}
+#content #main ol.Clearfix {
+	margin:0 58px 16px 31px;
+}
+#content #main ol.Clearfix li {
+	list-style:none;
+	float:left;
+	width:36px;
+	height:11px;
+	margin-left:26px;
+	display:inline; /* for IE(side margin) */
+	background:no-repeat 0 0;
+	text-indent:-1000em;
+}
+/*¥*/
+#content #main ol.Clearfix li {
+	overflow:hidden;
+}
+/**/
+#content #main ol.Clearfix li.List01 {
+	width:119px;
+	background-image:url(../img/list01.gif);
+}
+#content #main ol.Clearfix li.List02 {
+	background-image:url(../img/list02.gif);
+}
+#content #main ol.Clearfix li.List03 {
+	background-image:url(../img/list03.gif);
+}
+#content #main ol.Clearfix li.List04 {
+	width:46px;
+	background-image:url(../img/list04.gif);
+}
+
+/* staff profile */
+#content #main ul li {
+	margin-bottom:10px;
+	padding-bottom:10px;
+	background:url(../../shared/img/bdr_dot.gif) repeat-x bottom;
+}
+#content #main ul li li {
+	margin:0 0 0 1em;
+	padding-bottom:0;
+	text-indent:-1em;
+	background:none;
+}
+#content #main ul li img {
+	float:left;
+}
+#content #main ul li dl {
+	margin-left:106px;
+}
+#content #main ul li dt {
+	color:#d75749;
+}
