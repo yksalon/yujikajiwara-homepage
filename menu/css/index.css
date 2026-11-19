@@ -1,0 +1,65 @@
+@charset "utf-8";
+@import url("../../shared/css/import.css");
+/* ////////////////////
+MENU
+//////////////////// */
+#content #main h2#lead01 {background-image:url(../img/lead01.gif)}
+#content #main h2#lead02 {background-image:url(../img/lead02.gif); margin-top:42px;}
+#content #main h3#ttl01 {background-image:url(../img/ttl01.gif)}
+#content #main h3#ttl02 {background-image:url(../img/ttl02.gif)}
+#content #main h3#ttl03 {background-image:url(../img/ttl03.gif)}
+#content #main h3#ttl04 {background-image:url(../img/ttl04.gif)}
+#content #main h3#ttl05 {background-image:url(../img/ttl05.gif)}
+#content #main h3#ttl06 {background-image:url(../img/ttl06.gif)}
+#content #main h3#ttl07 {background-image:url(../img/ttl07.gif)}
+#content #main h4#ttl08 {background-image:url(../img/ttl08.gif)}
+#content #main h4#ttllist {background-image:url(../img/ttl_list.gif)}
+
+#content #main .Inner dl {
+	position:relative;
+	width:100%; /* for IE */
+	margin:16px 0 26px;
+	background:url(../../shared/img/bdr_dot.gif) repeat-x bottom;
+}
+#content #main .Inner dt,
+#content #main .Inner dd {
+	background:url(../../shared/img/bdr_dot.gif) repeat-x top;
+}
+#content #main .Inner dt {
+	position:absolute;
+	left:0;
+	width:24em;
+	padding:6px 0;
+}
+#content #main .Inner dd {
+	_width:100%; /* for IE6 */
+	margin-left:16em;
+	padding:6px 0;
+	text-align:right;
+}
+#content #main .Inner dd.TextL {
+	margin:0 1.5em;
+	padding:6px 0 12px;
+	background:none;
+}
+#content #main .Inner dd.TextL ol li {
+	list-style:decimal inside;
+	margin:0 0 0.25em 1em;
+	text-indent:-1em;
+}
+#content #main .Inner p.TextR {
+	margin-bottom:0.5em;
+}
+#content #main .Inner img.Email {
+	vertical-align:text-bottom;
+}
+
+/* other menu */
+#content #main .Inner ul li {
+	list-style:disc inside;
+	margin:0 0 0 1em;
+	padding-bottom:0;
+	text-indent:-1em;
+	background:none;
+}
+
