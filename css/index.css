@@ -1,0 +1,109 @@
+@charset "utf-8";
+@import url("../shared/css/import.css");
+/* ////////////////////
+INDEX
+//////////////////// */
+#content #main #sec01 h2 {background-image:url(../img/lead01.gif)}
+#content #main #sec02 h2 {background-image:url(../img/lead02.gif)}
+#content #main #blogFeed h2 {background-image:url(../img/lead_blog.gif)}
+
+#content #main a:hover img {   
+	filter: alpha(opacity=70);
+	-moz-opacity:0.70;
+	opacity:0.70;
+}
+
+/* #sec02
+-------------------- */
+#content #main #sec02 ul li {
+	position:relative;
+	float:left;
+	width:205px;
+	margin:0 0 6px 5px;
+	display:inline; /* for IE(side margin) */
+}
+#content #main #sec02 ul li img {
+	position:absolute;
+	left:0;
+}
+#content #main #sec02 ul li dl {
+	min-height:64px; /* for Gekko */
+	height:auto !important; /* for Gekko */
+	height:64px; /* for IE6 */
+	margin-left:74px;
+	line-height:1.3;
+}
+#content #main #sec02 ul li dt {
+	margin-bottom:3px;
+}
+#content #main #sec02 ul li dt strong {
+	font-size:85%;
+}
+
+/* #blogFeed
+-------------------- */
+#content #main #blogFeed {
+	position:relative;
+	width:430px;
+	margin-bottom:0;
+}
+#content #main #blogFeed dt a,
+#content #main #blogFeed dd {
+	margin-bottom:0.5em;
+}
+#content #main #blogFeed dt a {
+	position:absolute;
+	left:0;
+}
+#content #main #blogFeed dd {
+	color:#d75749;
+	text-align:right;
+}
+
+/* #sec03
+-------------------- */
+
+#content #main #sec03 {
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+#content #main #sec03 ul li {
+	position:relative;
+	float:left;
+	width:205px;
+	margin:0 0 6px 5px;
+	display:inline; /* for IE(side margin) */
+}
+#content #main #sec03 ul li img {
+	position:absolute;
+	left:0;
+}
+#content #main #sec03 ul li dl {
+	min-height:66px; /* for Gekko */
+	height:auto !important; /* for Gekko */
+	height:64px; /* for IE6 */
+	margin-left:74px;
+	line-height:1.3;
+}
+#content #main #sec03 ul li dt {
+	margin-bottom:3px;
+}
+#content #main #sec03 ul li dt strong {
+	font-size:85%;
+}
+#content #main #sec03 ul li dd {
+	font-size:85% !important;
+}
+
+
+/* #sec04
+-------------------- */
+
+#content #main #sec04 {
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+
+
