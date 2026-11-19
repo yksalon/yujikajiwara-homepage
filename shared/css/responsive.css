@@ -90,6 +90,7 @@
 		margin: 4px 2px;
 	}
 	#footer {
+		order: 4;
 		width: 100%;
 		text-align: center;
 	}
