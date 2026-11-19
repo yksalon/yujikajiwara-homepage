@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* ////////////////////
+link
+//////////////////// */
+a {
+	color:#462f0a;
+	text-decoration:underline;
+}
+a:hover {
+	text-decoration:none;
+}

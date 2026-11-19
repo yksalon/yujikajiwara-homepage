@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* ////////////////////
+class
+//////////////////// */
+/* text */
+.TextL {
+	text-align:justify !important;
+	text-justify:inter-ideograph !important; /* for IE */
+}
+.TextR {
+	text-align:right !important;
+}
+.TextC {
+	text-align:center !important;
+}
+.TextTF {
+	text-transform:uppercase !important;
+}
+/* float */
+.FloatL {
+	float:left !important;
+}
+.FloatR {
+	float:right !important;
+}
+/* background */
+.BgNone {
+	background:none !important;
+}
+
+/* ////////////////////
+Clearfix
+//////////////////// */
+.Clearfix {
+	zoom:1; /* for haslayout */
+}
+.Clearfix:after {
+	content:url(../../img/pixel.gif);
+	display:block;
+	clear:both;
+	height:0;
+}
+* html .Clearfix {display:inline-block}
+/*¥*/
+* html .Clearfix {height:1%}
+.Clearfix {display:block}
+/**/
+
+/* ////////////////////
+ClearTool
+//////////////////// */
+.ClearTool {
+	clear:both;
+	height:0;
+	visibility:hidden;
+	margin:0 !important;
+	padding:0 !important;
+}
