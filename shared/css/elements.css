@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* ////////////////////
+elements
+//////////////////// */
+html {
+	background:url(../img/bg.jpg);
+	color:#fff;
+}
+body {
+	margin-bottom:26px;
+	font-family:"メイリオ", Meiryo, "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", verdana, arial, sans-serif;
+	text-align:center; /* for IE */
+}
+
+img {
+	vertical-align:bottom;
+}
+
+/* emphasis */
+em {
+	color:#d75749;
+}
+strong {
+	color:#d75749;
+}
+
+/* display:none; */
+hr,
+caption,
+legend {
+	display:none;
+}
