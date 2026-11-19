@@ -1,0 +1,32 @@
+@charset "utf-8";
+@import url("../../shared/css/import.css");
+/* ////////////////////
+ACCESS
+//////////////////// */
+#content #main h2 {background-image:url(../img/lead.gif)}
+#content #main #sec01 h3 {background-image:url(../img/ttl01.gif)}
+#content #main #sec02 h3 {background-image:url(../img/ttl02.gif)}
+
+/* #googleMaps */
+#googleMaps {
+	width:430px;
+	min-height:268px; /* for Gekko */
+	height:auto !important; /* for Gekko */
+	height:268px; /* for IE6 */
+	margin-bottom:26px !important;
+}
+#googleMaps strong {
+	color:#333;
+}
+
+#content #main .Inner #sec02 {
+	margin-bottom:0;
+}
+#content #main #sec02 dt {
+	margin-bottom:4px;
+	color:#d75749;
+	line-height:1;
+}
+#content #main #sec02 dd {
+	margin-bottom:16px;
+}
