@@ -1,0 +1,27 @@
+@charset "utf-8";
+@import url("../../shared/css/import.css");
+/* ////////////////////
+RELAXATION
+//////////////////// */
+#content #main h2 {background-image:url(../img/lead.gif)}
+/*  #content #main h3#ttl01 {background-image:url(../img/ttl01.gif)}  2020-12-25菫ｮ豁｣ */
+/*  #content #main h3#ttl02 {background-image:url(../img/ttl02.gif)}  2020-12-25菫ｮ豁｣ */
+#content #main h3#ttl03 {background-image:url(../img/ttl03.gif)}
+
+#content #main .Inner .Clearfix {
+	margin:26px 0 0;
+}
+#content #main .Inner .Clearfix img {
+	float:left;
+}
+#content #main .Inner .Clearfix p {
+	margin:0 0 0 176px;
+}
+
+/* 2020-12-25 */
+#content #main h3#ttl01,
+#content #main h3#ttl02 {
+  text-indent: inherit;
+  color: #D75749;
+  font-weight: bold;
+}
