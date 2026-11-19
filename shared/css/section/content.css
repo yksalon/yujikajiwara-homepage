@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* ////////////////////
+#wrap
+//////////////////// */
+#wrap {
+	position:relative;
+	width:1021px;
+	margin:26px auto 0;
+	text-align:left;
+}
+
+/* ////////////////////
+#content
+//////////////////// */
+#content {
+	width:1021px;
+	margin-left:26px;
+	padding-top:66px;
+	background:transparent url(../../img/bg_top.png) no-repeat !important;
+	background:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/bg_top.png", sizingMethod="crop");
+	font-size:100%;
+}
+
+/* #main
+-------------------- */
+#content #main {
+	float:left;
+	width:731px;
+	min-height:417px; /* for Gekko */
+	height:auto !important; /* for Gekko */
+	height:466px; /* for IE6 */
+	padding-top:33px;
+	padding-bottom:16px; /* for margin */
+	background:transparent url(../../img/bg_side.png) repeat-y !important;
+	background:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/bg_side.png", sizingMethod="scale");
+	text-align:justify;
+	text-justify:inter-ideograph; /* for IE */
+	line-height:1.6;
+}
+#content #main * {
+	_position:relative; /* for IE6(cursor)-use filter */
+}
+#content #main .Inner {
+	margin:0 124px 0 177px;
+	background-color:#fbf7e0;
+	color:#333;
+}
+#content #main .Inner div {
+	margin-bottom:42px;
+}
+#content #main .Inner div div {
+	margin-bottom:0;
+}
+#content #main h2,
+#content #main h3,
+#content #main h4 {
+	background:no-repeat 0 0;
+	text-indent:-1000em;
+}
+/*¥*/
+#content #main h2,
+#content #main h3,
+#content #main h4 {
+	overflow:hidden;
+}
+/**/
+#content #main h2 {
+	height:30px;
+	margin-bottom:16px;
+}
+#content #main h3,
+#content #main h4 {
+	height:18px;
+	margin-bottom:6px;
+}
+#content #main h4 {
+	margin-bottom:10px;
+}
+#content #main p {
+	margin-bottom:1em;
+}
+
+/* #sub
+-------------------- */
+#content #sub {
+	position:relative;
+	float:right;
+	width:290px;
+	margin-top:74px;
+}
+#content #sub a {
+	cursor:pointer; /* for IE6 */
+}
+
+/* polaroid */
+#content #sub dl {
+	width:100%; /* for IE6 */
+}
+#content #sub dd {
+	position:absolute;
+	background:transparent no-repeat;
+	text-indent:-1000em;
+}
+/*¥*/
+#content #sub dd {
+	overflow:hidden;
+}
+/**/
+#content #sub dd#tel {
+	bottom:81px;
+	left:34px;
+	width:145px;
+	height:26px;
+	background-image:url(../../img/tel.png) !important;
+	background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/tel.png", sizingMethod="crop");
+}
+#content #sub dd#time {
+	bottom:52px;
+	left:31px;
+	width:203px;
+	height:31px;
+	background-image:url(../../img/time.png) !important;
+	background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/time.png", sizingMethod="crop");
+}
+
+/* banner(badge) */
+#content #sub ul {
+	position:relative;
+	margin:26px 0 0 10px;
+}
+#content #sub li {
+	position:absolute;
+}
+#content #sub li img {
+	position:relative;
+	z-index:1;
+}
+#content #sub li#bnr01 {
+	left:0;
+}
+#content #sub li#bnr02 {
+	top:26px;
+	left:143px;
+}
+#content #sub li#bnr03 {
+	top:123px;
+	left:68px;
+}
+#content #sub li#bnr04 {
+	top:250px;
+	left:10px;
+}
+#content #sub li#bnr05 {
+	top:245px;
+	left:147px;
+}

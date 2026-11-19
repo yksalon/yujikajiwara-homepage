@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* ////////////////////
+#gNavi
+//////////////////// */
+#gNavi {
+	position:absolute;
+	top:117px;
+	left:16px;
+}
+#gNavi li {
+	width:160px;
+}
+#gNavi li a {
+	display:block;
+	height:60px;
+	background:transparent no-repeat 0 0;
+	text-decoration:none;
+	text-indent:-1000em;
+	cursor:pointer; /* for IE6 */
+}
+/*¥*/
+#gNavi li a {
+	overflow:hidden;
+}
+/**/
+#gNavi li a:hover,
+#gNavi li a.Current {
+	background-position:0 -60px;
+}
+#gNavi li.Navi01 a {
+	background-image:url(../../img/gNavi/navi01.png) !important;
+	background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/gNavi/navi01.png", sizingMethod="crop");
+}
+#gNavi li.Navi02 a {
+	background-image:url(../../img/gNavi/navi02.png) !important;
+	background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/gNavi/navi02.png", sizingMethod="crop");
+}
+#gNavi li.Navi03 a {
+	background-image:url(../../img/gNavi/navi03.png) !important;
+	background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/gNavi/navi03.png", sizingMethod="crop");
+}
+#gNavi li.Navi04 a {
+	background-image:url(../../img/gNavi/navi04.png) !important;
+	background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/gNavi/navi04.png", sizingMethod="crop");
+}
+#gNavi li.Navi05 a {
+	background-image:url(../../img/gNavi/navi05.png) !important;
+	background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/gNavi/navi05.png", sizingMethod="crop");
+}
+#gNavi li.Navi06 a {
+	background-image:url(../../img/gNavi/navi06.png) !important;
+	background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/gNavi/navi06.png", sizingMethod="crop");
+}
+
+/* for IE6 */
+#gNavi li.Navi01 a:hover,
+#gNavi li.Navi01 a.Current {
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/gNavi/ie/navi01_o.png", sizingMethod="crop");
+}
+#gNavi li.Navi02 a:hover,
+#gNavi li.Navi02 a.Current {
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/gNavi/ie/navi02_o.png", sizingMethod="crop");
+}
+#gNavi li.Navi03 a:hover,
+#gNavi li.Navi03 a.Current {
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/gNavi/ie/navi03_o.png", sizingMethod="crop");
+}
+#gNavi li.Navi04 a:hover,
+#gNavi li.Navi04 a.Current {
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/gNavi/ie/navi04_o.png", sizingMethod="crop");
+}
+#gNavi li.Navi05 a:hover,
+#gNavi li.Navi05 a.Current {
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/gNavi/ie/navi05_o.png", sizingMethod="crop");
+}
+#gNavi li.Navi06 a:hover,
+#gNavi li.Navi06 a.Current {
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/gNavi/ie/navi06_o.png", sizingMethod="crop");
+}

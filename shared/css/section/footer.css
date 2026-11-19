@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* ////////////////////
+#footer
+//////////////////// */
+#footer {
+	position:relative;
+	width:731px;
+	height:139px;
+	margin-left:26px;
+	background:transparent url(../../img/bg_btm.png) no-repeat !important;
+	background:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/bg_btm.png", sizingMethod="crop");
+	line-height:1;
+}
+
+/* #copyright */
+#footer p {
+	position:absolute;
+	right:30px;
+	bottom:5px;
+	width:316px;
+	height:16px;
+	background:transparent url(../../img/copyright.png) no-repeat !important;
+	background:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/copyright.png", sizingMethod="crop");
+	text-indent:-1000em;
+}
+/*¥*/
+#footer p {
+	overflow:hidden;
+}
+/**/

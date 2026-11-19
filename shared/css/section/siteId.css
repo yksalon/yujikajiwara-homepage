@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* ////////////////////
+#siteId
+//////////////////// */
+#siteId h1 {
+	position:absolute;
+	top:30px;
+	left:757px;
+	width:281px;
+	height:81px;
+	background:transparent url(../../img/logo_css.png) no-repeat 0 0 !important;
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/shared/img/logo_css.png", sizingMethod="scale"); /* Alpha png for IE */
+}
+#siteId img {
+	display:none;
+	visibility:hidden;
+}
+@media aural {
+#siteId img {
+	display:inline;
+	visibility:visible;
+}
+}
