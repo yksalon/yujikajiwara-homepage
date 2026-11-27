@@ -21,3 +21,17 @@
 	margin-bottom: 10px;
 	line-height: 1.7;
 }
+
+
+/* Instagram動画の埋め込み（トップページ）2026-11 追加 */
+#sec05 {
+	text-align: center;
+	margin: 6px auto 10px;
+}
+#sec05 iframe {
+	width: 100%;
+	max-width: 400px;
+	height: 720px;
+	border: 0;
+	background-color: #fff;
+}
