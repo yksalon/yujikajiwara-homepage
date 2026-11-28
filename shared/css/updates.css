@@ -35,3 +35,21 @@
 	border: 0;
 	background-color: #fff;
 }
+
+
+/* Instagram動画だけを表示するための切り取り（2026-11 追加） */
+#sec05 .ig-crop {
+	width: 100%;
+	max-width: 400px;
+	aspect-ratio: 9 / 16;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#sec05 .ig-crop iframe {
+	width: 100%;
+	max-width: none;
+	height: 137.8%;
+	margin-top: -14%;
+	border: 0;
+	background-color: #fff;
+}
